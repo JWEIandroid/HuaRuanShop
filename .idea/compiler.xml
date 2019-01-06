@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com-hrshop-android_main" target="1.8" />
+      <module name="com-hrshop-android_test" target="1.8" />
+      <module name="com-hrshop-operate_main" target="1.8" />
+      <module name="com-hrshop-operate_test" target="1.8" />
+      <module name="com-hrshop-service_main" target="1.8" />
+      <module name="com-hrshop-service_test" target="1.8" />
+      <module name="com-huaruan-shop_main" target="1.8" />
+      <module name="com-huaruan-shop_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

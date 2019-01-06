@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com-hrshop-android/com-hrshop-android.iml" filepath="$PROJECT_DIR$/com-hrshop-android/com-hrshop-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com-hrshop-android_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com-hrshop-android_main.iml" group="com-hrshop-android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com-hrshop-android_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com-hrshop-android_test.iml" group="com-hrshop-android" />
+      <module fileurl="file://$PROJECT_DIR$/com-hrshop-operate/com-hrshop-operate.iml" filepath="$PROJECT_DIR$/com-hrshop-operate/com-hrshop-operate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com-hrshop-operate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com-hrshop-operate_main.iml" group="com-hrshop-operate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com-hrshop-operate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com-hrshop-operate_test.iml" group="com-hrshop-operate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com-hrshop-service.iml" filepath="$PROJECT_DIR$/.idea/modules/com-hrshop-service.iml" group="com-hrshop-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com-hrshop-service/com-hrshop-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com-hrshop-service/com-hrshop-service_main.iml" group="com-hrshop-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com-hrshop-service/com-hrshop-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com-hrshop-service/com-hrshop-service_test.iml" group="com-hrshop-service" />
+      <module fileurl="file://$PROJECT_DIR$/com-huaruan-shop.iml" filepath="$PROJECT_DIR$/com-huaruan-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com-huaruan-shop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com-huaruan-shop_main.iml" group="com-huaruan-shop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com-huaruan-shop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com-huaruan-shop_test.iml" group="com-huaruan-shop" />
+    </modules>
+  </component>
+</project>
