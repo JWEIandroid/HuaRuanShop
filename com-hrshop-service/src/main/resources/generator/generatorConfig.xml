@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE generatorConfiguration
         PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
-        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+        "http://git.gzjunbo.net/static/mybatis/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
     <!-- defaultModelType="flat" 设置复合主键时不单独为主键创建实体 -->
     <context id="MySql" defaultModelType="flat" targetRuntime="MyBatis3">
@@ -32,6 +32,10 @@
             <!-- 建立的Model对象是否 不可改变  即生成的Model对象不会有 setter方法，只有构造方法 -->
             <property name="immutable" value="false"/>
         </javaModelGenerator>
+
+        <!--JAVA BO 生成配置，不开启时，则不自动生成-->
+        <!--<javaBOGenerator targetPackage="com.huaruan.shop.bo" targetProject="src/main/java"/>-->
+
         <!-- 生成mapper xml文件-->
         <sqlMapGenerator targetPackage="mappers" targetProject="src/main/resources"></sqlMapGenerator>
         <!-- 生成mapper xml对应dao接口-->
@@ -40,8 +44,7 @@
             <!-- 在targetPackage的基础上，根据数据库的schema再生成一层package，最终生成的类放在这个package下，默认为false -->
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
-        <!--JAVA BO 生成配置，不开启时，则不自动生成-->
-        <!--<javaBOGenerator targetPackage="com.huaruan.shop.bo" targetProject="src/main/java"/>-->
+
 
         <table tableName="comment" domainObjectName="CommentDO" mapperName="CommentMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
