@@ -1,4 +1,4 @@
-package com.project.huaruan.hrshop.operate;
+package com.hrshop.operate;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

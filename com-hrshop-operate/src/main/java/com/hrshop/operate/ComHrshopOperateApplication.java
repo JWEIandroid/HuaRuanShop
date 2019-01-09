@@ -1,13 +1,13 @@
-package com.project.huaruan.comhrshopandroid;
+package com.hrshop.operate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ComHrshopAndroidApplication {
+public class ComHrshopOperateApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ComHrshopAndroidApplication.class, args);
+        SpringApplication.run(ComHrshopOperateApplication.class, args);
     }
 
 }

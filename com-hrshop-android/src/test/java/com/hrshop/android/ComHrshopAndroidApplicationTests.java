@@ -1,4 +1,4 @@
-package com.project.huaruan.comhrshopandroid;
+package com.hrshop.android;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
