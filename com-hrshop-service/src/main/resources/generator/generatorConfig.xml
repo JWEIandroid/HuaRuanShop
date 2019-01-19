@@ -50,22 +50,22 @@
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
             <columnOverride column="status" javaType="com.junbo.shortlink.model.LinkStatusEnum"></columnOverride>
         </table>
-        <table tableName="conversation" domainObjectName="ConversationDO" mapperName="ConversationDOMapper">
+        <table tableName="conversation" domainObjectName="ConversationDO" mapperName="ConversationMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <table tableName="order" domainObjectName="OrderDO" mapperName="OrderDOMapper">
+        <table tableName="order" domainObjectName="OrderDO" mapperName="OrderMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <table tableName="pic" domainObjectName="PicDO" mapperName="PicDOMapper">
+        <table tableName="pic" domainObjectName="PicDO" mapperName="PicMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <table tableName="productinfo" domainObjectName="ProductInfoDO" mapperName="ProductInfoDOMapper">
+        <table tableName="productinfo" domainObjectName="ProductInfoDO" mapperName="ProductInfoMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <table tableName="productype" domainObjectName="ProductypeDO" mapperName="ProductypeDOMapper">
+        <table tableName="productype" domainObjectName="ProductypeDO" mapperName="ProductypeMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <table tableName="userinfo" domainObjectName="UserInfoDO" mapperName="UserInfoDOMapper">
+        <table tableName="userinfo" domainObjectName="UserInfoDO" mapperName="UserInfoMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
     </context>
