@@ -1,4 +1,3 @@
 include 'com-hrshop-service'
 include 'com-hrshop-android'
 include 'com-hrshop-operate'
-

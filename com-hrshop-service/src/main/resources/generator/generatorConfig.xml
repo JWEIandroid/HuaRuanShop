@@ -48,25 +48,38 @@
 
         <table tableName="comment" domainObjectName="CommentDO" mapperName="CommentMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-            <columnOverride column="status" javaType="com.junbo.shortlink.model.LinkStatusEnum"></columnOverride>
+            <columnOverride column="send_type" javaType="com.huaruan.shop.model.UserEnum"></columnOverride>
         </table>
-        <table tableName="conversation" domainObjectName="ConversationDO" mapperName="ConversationMapper">
+        <table tableName="product_type" domainObjectName="ProductTypeDO" mapperName="ProductTypeMapper">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+            <columnOverride column="online_state" javaType="com.huaruan.shop.model.StateEnum"></columnOverride>
+        </table>
+        <table tableName="sys_order" domainObjectName="SysOrderDO" mapperName="SysOrderMapper">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+            <columnOverride column="order_status" javaType="com.huaruan.shop.model.OrderEnum"></columnOverride>
+        </table>
+        <table tableName="sys_pic" domainObjectName="SysPicDO" mapperName="SysPicMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <table tableName="order" domainObjectName="OrderDO" mapperName="OrderMapper">
+        <table tableName="sys_product" domainObjectName="SysProductDO" mapperName="SysProductMapper">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+            <columnOverride column="product_status" javaType="com.huaruan.shop.model.ProductEnum"></columnOverride>
+        </table>
+        <table tableName="sys_role" domainObjectName="SysRoleDO" mapperName="SysRoleMapper">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+            <columnOverride column="online_state" javaType="com.huaruan.shop.model.StateEnum"></columnOverride>
+        </table>
+        <table tableName="sys_role_permission" domainObjectName="SysRolePermissionDO" mapperName="SysRolePermissionMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
-        <table tableName="pic" domainObjectName="PicDO" mapperName="PicMapper">
+        <table tableName="sys_user" domainObjectName="SysUserDO" mapperName="SysUserMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+            <columnOverride column="online_state" javaType="com.huaruan.shop.model.StateEnum"></columnOverride>
         </table>
-        <table tableName="productinfo" domainObjectName="ProductInfoDO" mapperName="ProductInfoMapper">
+        <table tableName="user_vendor_conversation" domainObjectName="UserVendorConversationDO" mapperName="UserVendorConversationMapper">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+            <columnOverride column="sender_type" javaType="com.huaruan.shop.model.UserEnum"></columnOverride>
         </table>
-        <table tableName="productype" domainObjectName="ProductypeDO" mapperName="ProductypeMapper">
-            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-        </table>
-        <table tableName="userinfo" domainObjectName="UserInfoDO" mapperName="UserInfoMapper">
-            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-        </table>
+
     </context>
 </generatorConfiguration>
